@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+    
+    <script>
+
+    
+   var abc = {    // {} Json Syntax;    //JavaScript Object Notaion . 
+    
+    
+        "Student":{      //         Student.id 
+        "id":"1",    
+        "name":"sk",
+        "age":"25",
+        "isEnabled":true,
+        },
+
+        "BioData":{
+        "id":"2",    
+        "name":"Uk",
+        "age":"57",
+        "isEnabled":false,
+        "Details":{
+            "StdId":"665171",
+            "CGPA":{
+                "FirstSemester":"3.4"
+            }
+        }
+
+    
+        },
+
+        "JOB":{
+            "Description": "Job Required"
+        }
+    
+    }
+
+
+    document.write(abc.BioData.Details.CGPA.FirstSemester+"<br>"+abc.BioData.Details.StdId);
+
+</script>
+
+
+</body>
+</html>

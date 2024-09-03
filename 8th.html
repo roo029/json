@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+let dataa = 
+[
+{
+
+student1:{
+    
+    "id":"coco",
+    "name":"Uroosha",
+    "age":"18",
+    "qualification":"Intermediate",
+    "skills":["HTML","CSS","JAVASCRIPT"],
+    "address":{
+    "NorthNazimabad":"Block-H",
+    "Clifton":"Block-8"
+},
+
+},
+
+student2:{
+
+    "Id":"berry",
+    "Name":"Irha",
+    "Age":"15",
+    "Qualification":"Highschool",
+    "Skills":["HTML","CSS","JAVASCRIPT"],
+
+    biodata:{
+
+        "Address":{
+    "DHA":"Phase-4",
+    "Sharefaisal":"Mehmoodabad",
+    "ADS":{
+        "Facebook":1200
+    },
+    "Country":["UK","PAK"]
+}
+}  
+
+}
+   
+}
+]
+
+document.write(dataa[0].student1.name+"<br>"+dataa[0].student2.biodata.Address.DHA+"<br>"+dataa[0].student2.biodata.Address.Sharefaisal+"<br>"+dataa[0].student2.biodata.Address.ADS.Facebook+"<br>"+dataa[0].student2.biodata.Address.Country[0]+"<br>"+dataa[0].student2.biodata.Address.Country[1]);
+
+
+    </script>
+
+    
+</body>
+</html>

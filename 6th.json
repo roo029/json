@@ -1,0 +1,27 @@
+{
+
+    "id":"coco",
+    "name":"Uroosha",
+    "age":"18",
+    "qualification":"Intermediate",
+    "skills":["HTML","CSS","JAVASCRIPT"],
+    "address":{
+        "NorthNazimabad":"Block-H",
+        "Clifton":"Block-8"
+    },
+
+    "Id":"berry",
+    "Name":"Irha",
+    "Age":"15",
+    "Qualification":"HIghschool",
+    "Skills":["HTML","CSS","JAVASCRIPT"],
+    "Address":{
+        "DHA":"Phase-4",
+        "Sharefaisal":"Mehmoodabad",
+        "ADS":{
+            "Facebook":1200
+        },
+        "Country":["UK","PAK"]
+    }
+
+}
